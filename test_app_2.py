@@ -1,4 +1,3 @@
-@'
 import unittest
 from app import app
 
@@ -35,4 +34,3 @@ class TestApp2(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-'@ | Set-Content -Encoding ascii test_app_2.py

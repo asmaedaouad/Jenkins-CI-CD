@@ -1,5 +1,3 @@
-cd C:\Users\asmae\Desktop\TP-Jenkins\Jenkins-CI-CD
-@'
 pipeline {
     agent any
 
@@ -93,4 +91,3 @@ pipeline {
         }
     }
 }
-'@ | Set-Content -Encoding ascii Jenkinsfile
